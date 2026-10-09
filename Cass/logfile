@@ -1,0 +1,11 @@
+
+Oct  9 11:20: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+           cc48290.fits
+           cc48309.fits
+           cc48324.fits
+
+  Output image = Zero, ncombine = 3

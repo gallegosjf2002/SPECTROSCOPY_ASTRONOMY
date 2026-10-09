@@ -32,3 +32,10 @@ To deactivate the virtual environment when finished:
 ```bash
 deactivate
 ```
+
+
+### how to use IRAF
+
+1. Images
+2. imutil
+3. imheader
