@@ -1,5 +1,5 @@
 images,s,a,"@all.list",,,"images from which selection is to be drawn"
 fields,s,a,"$I",,,"fields to be extracted"
-expr,s,a,"IMAGETYP == \'zero\'",,,"boolean expression governing selection"
+expr,s,a,"IMAGETYP != \'zero\'",,,"boolean expression governing selection"
 missing,s,h,INDEF,,,"Value for missing keywords"
 mode,s,h,"ql",,,
