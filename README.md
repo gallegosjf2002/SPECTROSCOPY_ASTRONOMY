@@ -1,6 +1,29 @@
 # IRAF Setup & Data Reduction Guide
+# IRAF Setup & Data Reduction Guide
+
+## Repository Contents
+
+This repository includes the following folders and files:
+
+| File or folder | Description |
+| :--- | :--- |
+| `Cass/` | Directory containing the `Cass` dataset or working files. Its internal contents are not detailed in this repository overview. |
+| `Cass_new/Cass/` | Additional directory containing a `Cass` folder, likely a separate or updated copy of the working dataset. |
+| `ADP.2017-01-30T01_02_17.121.fits` | Astronomical data file in FITS format. FITS is commonly used to store astronomical images and associated data. |
+| `ADP.2017-01-30T01_02_17.121.zip` | ZIP archive associated with the FITS data product; it can be extracted to inspect its contents. |
+| `README.md` | Main documentation file. It explains the software setup and the data-reduction workflow described below. |
+| `spec_gyak_01_eng.pdf` | English-language PDF practical/laboratory material, part 1. |
+| `spec_gyak_02_eng.pdf` | English-language PDF practical/laboratory material, part 2. |
+| `spec_gyak_03_eng.pdf` | English-language PDF practical/laboratory material, part 3. |
+| `spec_gyak_04_eng.pdf` | English-language PDF practical/laboratory material, part 4. |
+| `spec_gyak_normplot_eng.pdf` | English-language PDF material related to the `normplot` task or procedure. |
+
+The descriptions of the PDF files are based on their filenames; consult each document for its exact contents. The two `Cass` directories are listed as they appear in the repository, without assuming what files they contain.
+
+---
 
 This repository contains a step-by-step guide for setting up an astronomical data reduction environment on Linux (or WSL) and executing basic IRAF pipeline tasks such as header inspection, bias frame combination, and image calibration.
+
 
 ---
 
