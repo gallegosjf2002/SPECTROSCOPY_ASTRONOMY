@@ -1,0 +1,31 @@
+# Fri 01:49:26 13-Nov-2026
+begin	identify fear2.ap.0001 - Ap 1
+	id	fear2.ap.0001
+	task	identify
+	image	fear2.ap.0001 - Ap 1
+	aperture	1
+	aplow	11.77
+	aphigh	15.87
+	units	Angstroms
+	features	4
+	        116.32 6684.29767  6684.2929   4.0 1 1 ArII
+	        152.71 6677.27537  6677.2817   4.0 1 1 ArI
+	        326.38 6643.69965  6643.6976   4.0 1 1 ArII
+	        526.66 6604.85291  6604.8534   4.0 1 1 ArI
+	function legendre
+	order 3
+	sample *
+	naverage 1
+	niterate 0
+	low_reject 3.
+	high_reject 3.
+	grow 0.
+	coefficients	7
+		2.
+		3.
+		116.3199081420899
+		526.6605224609374
+		6644.622438320263
+		-39.72237781440506
+		-0.04714721695238567
+

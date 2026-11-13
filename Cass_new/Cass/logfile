@@ -1,0 +1,58 @@
+
+Nov  5 18:58: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+           cc48290.fits
+           cc48309.fits
+           cc48324.fits
+
+  Output image = Zero, ncombine = 3
+cc48352.fits: Nov  5 19:09 Zero level correction image is Zero
+cc48353.fits: Nov  5 19:09 Zero level correction image is Zero
+cc48354.fits: Nov  5 19:09 Zero level correction image is Zero
+cc48355.fits: Nov  5 19:09 Zero level correction image is Zero
+cc48356.fits: Nov  5 19:09 Zero level correction image is Zero
+cc48357.fits: Nov  5 19:09 Zero level correction image is Zero
+cc48358.fits: Nov  5 19:09 Zero level correction image is Zero
+
+Nov  5 19:10: IMCOMBINE
+  combine = median, scale = mean, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 1.
+                Images     Mean  Scale
+           cc48352.fits  6126.9  0.987
+           cc48353.fits  6046.6  1.000
+           cc48354.fits  6042.7  1.001
+           cc48355.fits  6037.1  1.002
+           cc48356.fits  6031.8  1.003
+           cc48357.fits  6026.1  1.004
+           cc48358.fits   6023.  1.004
+
+  Output image = Flat, ncombine = 7
+cc48295.fits: Nov 12 23:35 Trim data section is [12:42,2:1024]
+Flat: Nov 12 23:35 Trim data section is [12:42,2:1024]
+cc48295.fits: Nov 12 23:35 Flat field image is Flat with scale=9441.483
+
+REIDENTIFY: Community IRAF V2.18.1 jorge@Jorge Fri 01:49:12 13-Nov-2026
+  Reference image = fear1.ap.0001, New image = fear2.ap.0001, Refit = yes
+          Image Data    Found     Fit Pix Shift  User Shift  Z Shift      RMS
+fear2.ap.0001 - Ap 1    4/4     4/4      0.0169    -0.00326  -4.9E-7   0.0041
+
+REIDENTIFY: Community IRAF V2.18.1 jorge@Jorge Fri 01:49:41 13-Nov-2026
+[obj.ap.0001] refspec1='fear1.ap.0001 0.5'
+[obj.ap.0001] refspec2='fear2.ap.0001 0.5'
+
+SFIT: Community IRAF V2.18.1 jorge@Jorge Fri 01:57:54 13-Nov-2026
+
+
+END: Community IRAF V2.18.1 jorge@Jorge Fri 02:02:01 13-Nov-2026
+
+
+SFIT: Community IRAF V2.18.1 jorge@Jorge Fri 02:02:14 13-Nov-2026
+
+
+END: Community IRAF V2.18.1 jorge@Jorge Fri 02:02:14 13-Nov-2026
+

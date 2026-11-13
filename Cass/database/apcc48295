@@ -1,9 +1,9 @@
-# Sat 21:43:21 17-Oct-2026
-begin	aperture cc48295 1 13.88416 511.
+# Fri 00:19:59 13-Nov-2026
+begin	aperture cc48295 1 13.8706 511.
 	image	cc48295
 	aperture	1
 	beam	1
-	center	13.88416 511.
+	center	13.8706 511.
 	low	-2.051263 -510.
 	high	2.050303 512.
 	background
@@ -18,10 +18,13 @@ begin	aperture cc48295 1 13.88416 511.
 		high_reject 3.
 		grow 0.
 	axis	1
-	curve	5
-		2.
+	curve	8
+		3.
 		1.
 		1.
-		1021.
-		-0.04911083
+		1023.
+		-0.06001821
+		-0.06938421
+		0.04970305
+		0.1356948
 
