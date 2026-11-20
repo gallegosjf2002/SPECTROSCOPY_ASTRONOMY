@@ -1,7 +1,7 @@
 #length of average (pixels)
 1
 #size of search bin (km/s)
-550.00
+300.00
 #merge spectral orders (1=yes, 0=no)
 0
 #fill gaps at order edges with points from nearby orders
